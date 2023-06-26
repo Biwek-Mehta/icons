@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="icons/title icon.svg" style="stroke: yellow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  
+  <title>COMETT SYSTECH</title>
+
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <nav class="nav_bar flex">
+      <img class="main_logo" src="images/logo.png" alt="Website logo"  width="245px;"/>
+      <!-- <div class="logos">
+        <svg xmlns="http://www.w3.org/2000/svg" class="social-icon" viewBox="0 0 512 512">
+          <title>Logo Facebook</title>
+          <path
+            d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z"
+            fill-rule="evenodd" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="social-icon" viewBox="0 0 512 512">
+          <title>Logo Instagram</title>
+          <path
+            d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" />
+          <path
+            d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="social-icon" viewBox="0 0 512 512">
+          <title>Logo Youtube</title>
+          <path
+            d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="social-icon" viewBox="0 0 512 512">
+          <title>Logo Linkedin</title>
+          <path
+            d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" herf="+9779800971310" class="social-icon" viewBox="0 0 512 512">
+          <title>Logo Whatsapp</title>
+          <path d="M414.73 97.1A222.14 222.14 0 00256.94 32C134 32 33.92 131.58 33.87 254a220.61 220.61 0 0029.78 111L32 480l118.25-30.87a223.63
+    223.63 0 00106.6 27h.09c122.93 0 223-99.59 223.06-222A220.18 220.18 0 00414.73 97.1zM256.94 438.66h-.08a185.75 185.75 0 01-94.36-25.72l-6.77-4-70.17 
+    18.32 18.73-68.09-4.41-7A183.46 183.46 0 0171.53 254c0-101.73 83.21-184.5 185.48-184.5a185 185 0 01185.33 184.64c-.04 101.74-83.21 184.52-185.4 
+    184.52zm101.69-138.19c-5.57-2.78-33-16.2-38.08-18.05s-8.83-2.78-12.54 2.78-14.4 18-17.65 21.75-6.5 4.16-12.07 1.38-23.54-8.63-44.83-27.53c-16.57-14.71-27.75-32.87-31-38.42s-.35-8.56 2.44-11.32c2.51-2.49 5.57-6.48 8.36-9.72s3.72-5.56 5.57-9.26.93-6.94-.46-9.71-12.54-30.08-17.18-41.19c-4.53-10.82-9.12-9.35-12.54-9.52-3.25-.16-7-.2-10.69-.2a20.53 20.53
+    0 00-14.86 6.94c-5.11 5.56-19.51 19-19.51 46.28s20 53.68 22.76 57.38 39.3 59.73 95.21 83.76a323.11 323.11 0 0031.78 11.68c13.35
+    4.22 25.5 3.63 35.1 2.2 10.71-1.59 33-13.42 37.63-26.38s4.64-24.06 3.25-26.37-5.11-3.71-10.69-6.48z"
+            fill-rule="evenodd" />
+        </svg>
+      </div> -->
+  <!--  -->
+  <span class="open-category" style="font-size:30px;cursor:pointer" onclick="openNav()">
+    <i class="fa-solid fa-bars" style="font-size:25px;"></i>
+    <!-- <i class="fa-solid fa-caret-right" style="font-size:25px;"></i> -->
+  </span>
+  <!--  -->
+    </nav>
+
+  
+
+    <!-- Hero section -->
+    <section class="hero" id="home">
+      <div class="hero_content">
+        <h3 class="h3">Your Ideas, Our Knowledge</h3>
+        <h1>Let's make it happen.</h1>
+        <div class="btn_wrapper">
+          <button class="btn btn1">View Products</button>
+          <button class="btn btn2">Learn more</button>
+        </div>
+      </div>
+      <div class="banner_img text-center wow fadeInRight" data-wow-duration="0.9s"
+        style="visibility: visible; animation-duration: 0.9s; animation-name: fadeInRight;">
+        <img src="https://opuslab.works/images/banner_img.png" alt="image" class="hero_img img-fluid" />
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- Our Products -->
+    <section class="products" id="product-list">
+   
+      <h2 class="about_h2 text-center">Products</h2>
+      <div class="product_wrapper row">
+        <div class="product p1">
+          <h4 class="product__head" >Bluwx</h4>
+          <!-- <div class="product_content">
+            <p  class="product__para">
+              "Automate HR and payroll tasks with ease - our all-in-one tool simplifies employee management, payroll processing, and ensures accurate payments every time."
+            </p>
+          </div> -->
+          <img src="images/our_product/bluwx.png" alt="" class="product_image hero_img" />
+        </div>
+        <div class="product p2">
+          <h4 class="product__head" style="color:white">Review</h4>
+          <p style="color:white">
+            "Automate HR and payroll tasks with ease - our all-in-one tool simplifies employee management, payroll processing, and ensures accurate payments every time."
+          </p>
+            
+        </div>
+
+        <div class="product p3">
+          <h4 class="product__head">Comett</h4>
+          <img src="images/our_product/comett.png" alt="" class="product_image hero_img img-fluid" />
+          
+        </div>
+
+        <div class="product p4">
+          <h4 class="product__head" style="color:white">Review</h4>
+          <p style="color:white">
+            "Comett was founded with an aim to help organizations of all sizes, from an early stage start-up with 2-3 employees to large scare MNCs with thousands of employees."
+          </p>
+        </div>
+
+        <div class="product p5">
+          <!-- <div class="product_content">
+            <h4 class="product__head">Qwickly</h4>
+            <p class="product__para">
+              "Book your rides hassle-free with our online vehicle booking system app. Select your destination, choose your ride, and enjoy a seamless transportation experience. Download our app today."
+            </p>
+          </div> -->
+          <h4 class="product__head" >Qwickly</h4>
+          <img src="images/our_product/qwickly.png" alt="" class="product_image hero_img img-fluid hero_img img-fluid" />
+        </div>
+        <div class="product p6">
+
+          <h4 class="product__head" style="color:white">Review</h4>
+          <p style="color:white">
+            "Comett was founded with an aim to help organizations of all sizes, from an early stage start-up with 2-3 employees to large scare MNCs with thousands of employees."
+          </p>
+
+          <!-- <div class="product_content">
+            <h4 class="product__head">Knowed</h4>
+            <p class="product__para">
+              Our online education website offers a vast array of courses and programs to learners worldwide. Our platform provides a user-friendly interface, personalized learning experiences, and flexible scheduling options to accommodate diverse needs and learning styles.
+            </p>
+          </div>
+          <img src="images/our_product/knowed.png" alt="" class="product_image hero_img img-fluid" /> -->
+        </div>
+
+       <div class="product p7">
+        <h4 class="product__head" >Knowed</h4>
+        <img src="images/our_product/knowed.png" alt="" class="product_image hero_img img-fluid" />
+       
+       </div>
+
+       <div class="product p8">
+        <h4 class="product__head" style="color:white">Review</h4>
+          <p style="color:white">
+            "Our online education website offers a vast array of courses and programs to learners worldwide. Our platform provides a user-friendly interface, personalized learning experiences, and flexible scheduling options to accommodate diverse needs and learning styles."
+          </p>
+       </div>
+
+      <div class="product p9">
+        <h4 class="product__head" >Diversly</h4>
+        <img src="images/our_product/knowed.png" alt="" class="product_image hero_img img-fluid" />
+      </div>
+      
+
+      <div class="product p10">
+        <h4 class="product__head" style="color:white">Review</h4>
+          <p style="color:white">
+            "Doctor Appointment Booking App, Hospital management POSsystem"
+          </p>
+       </div>
+
+
+       <div class="product p11">
+        <h4 class="product__head">Appointo</h4>
+        <img src="images/our_product/knowed.png" alt="" class="product_image hero_img img-fluid" />
+       </div>
+
+
+       <div class="product p12">
+        <h4 class="product__head" style="color:white">Review</h4>
+        <p style="color:white">
+          "Online hospital booking and ecommerce enable patients to book medical appointments and purchase healthcare products from the comfort of their homes. This provides convenience, accessibility and a seamless experience for patients, while also improving the efficiency of healthcare services."
+        </p>
+
+       </div>
+      
+      </div> 
+      <button class="btn btn_showmore">Show more</button>
+    </section>
+    <!-- Our Products End -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about_head_wrapper">
+        <h2 class="about_h2">About Commett Systech</h2>
+        <p class="p">
+          We empower startups, businesses, and corporations to leverage the
+          power of technology for triggering unstoppable growth. Our team is
+          powered by native experts in design thinking, programming paradigms,
+          and business acumen, whose sole purpose is our client’s success.
+        </p>
+      </div>
+      <div class="number_wrapper">
+        <div class="number">
+          <h2>600+</h2>
+          <p class="p">Happy Client</p>
+        </div>
+        <div class="number">
+          <h2>200+</h2>
+          <p class="p">Repeat client</p>
+        </div>
+        <div class="number">
+          <h2>4.8</h2>
+          <p class="p">Envato Rating</p>
+        </div>
+        <div class="number">
+          <h2>250+</h2>
+          <p class="p">Products</p>
+        </div>
+      </div>
+      <img src="https://opuslab.works/images/aboutus.png" class="about_img" alt="" />
+    </section>
+  <!-- About Section End -->
+
+  <!-- Timeline Section -->
+    <section class="timeline">
+      <!-- <div class="vl"></div> -->
+      <h2 class="text-center">How Comett Systech Works</h2>
+      <p class="p text-center timeline_para" style="margin-bottom:2rem;">
+        There are full research and testing procress before and after the
+        development of any single project
+      </p>
+      <div class="cards">
+        <div class="card card1">
+          <h2>Research</h2>
+          <p class="p">
+            Business Apps have bocome an essential asset for organization
+            across the globe. To ensure that your business application runs
+            smoothly, a robust app strategy is required. Rather than rushing
+            the application directly for development, organizations must have
+            brainstroming sessions with app developers and discuss their
+            mobile app development strategy.
+          </p>
+        </div>
+        <div class="card card2">
+          <h2>Wireframing</h2>
+          <p class="p">
+            We create innovative, unique ideas for your app and show them in
+            the form of the live prototype which shows the complete flow of
+            the mobile app with all screen designs and flow of complete
+            functionality with each step. It gives the client a complete idea
+            of how his mobile app will look and function.
+          </p>
+        </div>
+        <div class="card card3">
+          <h2>Designing</h2>
+          <p class="p">
+            With a unique blend of modern technologies and innovative
+            approaches, we create responsive and adaptive designs. We
+            understand what it takes to build a brand from the design
+            perspective, we help clients thrive by simplyfying designs that
+            can make a lasting impact on the mind of the users which in turn,
+            increase brand awarness and loyalty.
+          </p>
+        </div>
+        <div class="card card4">
+          <h2>Development</h2>
+          <p class="p">
+            After coming together with app designs, the mobile app developers
+            get down to bring everythin into action. The project manager
+            defines tasks to the developers and develops apps step by step to
+            achieve the set milestones. We value your time and money, thus, a
+            discussion of every thought , suggestion, or decision is done with
+            you.
+          </p>
+        </div>
+        <div class="card card5">
+          <h2>Testing & Publish</h2>
+          <p class="p">
+            We make certain that the application matches up to all your cited
+            requirements. After completing the testing procedure we assist our
+            customers in uploading their applications on Appstore and
+            Playstore. They have strong policies to make the app live, but we
+            do have quite good expertise in this domain.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Timeline Section End -->
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonial">
+      <h2>Check Testimonials Form Our Cliens</h2>
+      <p class="p text-center">Because your satisfaction is our priority</p>
+      <div class="testimonials_cards">
+        <div class="quotes">
+            <div class="quote_img">
+              <img src="https://opuslab.works/images/testimonial2_dark.png" alt="" class="img_quote" />
+            </div>
+            <div class="quote">
+              <h6>
+                I wish i had started working with Opsu Labworks years ago! They
+                offer prompt service and superior technicians who are respectful
+                of all user's experience level, all at an affordable price.
+              </h6>
+              <h5>-Ashim Rai</h5>
+            </div>
+          </div>
+        <div class="quotes">
+            <div class="quote_img">
+              <img src="https://opuslab.works/images/testimonial2_dark.png" alt="" class="img_quote" />
+            </div>
+            <div class="quote">
+              <h6>
+                I wish i had started working with Opsu Labworks years ago! They
+                offer prompt service and superior technicians who are respectful
+                of all user's experience level, all at an affordable price.
+              </h6>
+              <h5>-Ashim Rai</h5>
+            </div>
+          </div>
+        <div class="quotes">
+            <div class="quote_img">
+              <img src="https://opuslab.works/images/testimonial2_dark.png" alt="" class="img_quote" />
+            </div>
+            <div class="quote">
+              <h6>
+                I wish i had started working with Opsu Labworks years ago! They
+                offer prompt service and superior technicians who are respectful
+                of all user's experience level, all at an affordable price.
+              </h6>
+              <h5>-Ashim Rai</h5>
+            </div>
+          </div>
+        <div class="quotes">
+            <div class="quote_img">
+              <img src="https://opuslab.works/images/testimonial2_dark.png" alt="" class="img_quote" />
+            </div>
+            <div class="quote">
+              <h6>
+                I wish i had started working with Opsu Labworks years ago! They
+                offer prompt service and superior technicians who are respectful
+                of all user's experience level, all at an affordable price.
+              </h6>
+              <h5>-Ashim Rai</h5>
+            </div>
+          </div>
+        </div>
+          <div class="white_circle">
+            <div class="blue circle">&nbsp;</div>
+            <div class="circle">&nbsp;</div>
+            <div class="circle">&nbsp;</div>
+            <div class="circle">&nbsp;</div>
+            </div>
+    </section>
+    <!-- Testimonials Section End -->
+
+    <!-- ContactUs section -->
+    <section class="form_sec" id="contact">
+      <div>
+        <h2 class="text-center">Contact Us</h2>
+        <p class="p text-center">Feel free to connect for queries for feedback</p>
+        <img src="https://opuslab.works/images/contact.png" alt="" class="form_img" />
+      </div>
+      <div class="form_wrapper">
+       
+        <div class="form">
+          <input type="text" class="name" placeholder="*Name" required />
+          <input type="email" class="email" placeholder="*E-mail" required />
+          <input type="number" class="contact_num" placeholder="*WhatsApp Number" required />
+          <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="*Your message"></textarea>
+          <button class="btn btn1 form_btn">Send</button>
+        </div>
+      </div>
+    </section>
+    <!-- ContactUs section End -->
+
+    <!-- Subscribe -->
+    <section class="subscribe_us">
+      <div class="subscribe_wrapper text-center">
+        <h2>Subscribe Us</h2>
+        <p class="p text-center">
+          Get a notification When we launch a new product or offer
+        </p>
+        <div class="subscribe">
+          <input type="email" class="subscribe_mail" placeholder="eMail Address" />
+          <button class="btn btn1 subscribe_btn">Subscribe Now</button>
+        </div>
+      </div>
+      <img src="https://opuslab.works/images/img_subscribe.png" alt="" class="subscribe_img" />
+    </section>
+    <!-- Subscribe End -->
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer__container">
+    <div class="footer text-center">
+      <img class="main_logo" src="images/logo.png" alt="Website logo" width="250px" style="margin-bottom: 2rem;" />
+      <div class="lists">
+        <div class="footer_list">
+          <p class="p">Follow</p>
+          <p class="p">WhatsApp</p>
+          <p class="p">Email</p>
+          <!--<p class="p">Location</p>-->
+        </div>
+        <div class="contact_info">
+          <div class="logos footer_logo">
+            <svg xmlns="http://www.w3.org/2000/svg" class="social-icon" viewBox="0 0 512 512">
+              <title>Logo Facebook</title>
+              <path
+                d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z"
+                fill-rule="evenodd" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="social-icon" viewBox="0 0 512 512">
+              <title>Logo Instagram</title>
+              <path
+                d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" />
+              <path
+                d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="social-icon" viewBox="0 0 512 512">
+              <title>Logo Youtube</title>
+              <path
+                d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z" />
+            </svg>
+          </div>
+          <p class="p">
+            <a href="tel:" style="color: #a8a9ab; text-decoration: none;" >+91-9845594772</a> <span> (Dinakar) </span>
+          </p>
+          <p class="p">comettsystech@info.com</p>
+          <!--<p class="p">8 A.A. Row, 1st Floor, P.O. - Park Street Road, Kolkata - 700016</p>-->
+        </div>
+      </div>
+    </div>
+
+    <div class="delivery_boy">
+      <img src="images/footer/delivery.png" class="img-fluid" loading="lazy" style="width: 250px;">
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <!-- visible on tab view -->
+
+  <!-- sidebar -->
+  <div class="overlay" id="myNav">
+    <div class="left-sidebar-categories order-1 overlay-content">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+      <h2 style="color: #818181; text-align: center;">MENU
+      </h2>
+      <div class="viewBox listBox new-listBox">
+
+
+        <ul class="list m-0">
+
+          <li class="inactive">
+            <a href="#home">HOME</a>
+          </li>
+
+
+          <li class="active last">
+            <a href="#product-list" class="text-green">PRODUCT LIST</a>
+          </li>
+
+          <li class="inactive"><a class="text-black" href="#about">ABOUT</a>
+          </li>
+          <li class="inactive"><a class="text-black" href="#testimonial">TESTIMONIALS</a>
+          </li>
+          <li class="inactive"><a class="text-black" href="#contact">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- sidebar end -->
+
+
+
+  <!-- mouse cursor -->
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+
+  <!-- visible on tab view -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+<script>
+  // cursor
+
+let cursor = document.querySelector(".cursor");
+let cursor2 = document.querySelector(".cursor2");
+document.addEventListener('mousemove',function(e){
+  cursor.style.cssText = cursor2.style.cssText = 'left: ' + e.clientX + "px; top: " + e.clientY + "px;";
+
+})
+
+
+// cursor end
+
+</script>
+
+</body>
+<script>
+  // v3
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+    // v3 end
+    
+    // ********************************
+    
+$(document).ready(function() {
+  $('.testimonials_cards').slick({
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1367,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+
+// ***************************************
+</script>
+
+</html>
